@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class DataProvider_OnGooglesearch {
 	WebDriver w;
-	@Test (dataProviderClass = GoogleSearchData.class, dataProvider = "GoogleData")
+	@Test (/*dataProviderClass = GoogleSearchData.class, dataProvider = "GoogleData"*/)
 	public void Googlesearch(String data)
 	{
 		w = new ChromeDriver();
